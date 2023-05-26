@@ -118,16 +118,16 @@ This creates file `couveignes_fixed_root_<p>.png` in folder `./figures`, for
 each value of `<p>` put in the file. 
 
 ##### Obtaining Fig. 4
-Run the `saturation.plt` script as
+Run the `tw_sti.plt` script as
 	```
-	gnuplot saturation.plt
+	gnuplot tw_sti.plt
 	```
-This creates file `cf_twphs_stickel_saturation_good_max.png` (Fig. 4(a)) and 
-`cf_twphs_stickel_saturation_bad_max.png` (Fig. 4(b)) in folder `./figures`.
+This creates file `cf_tw_sti_saturation_good_max.png` (Fig. 4(a)) and 
+`cf_tw_sti_saturation_bad_max.png` (Fig. 4(b)) in folder `./figures`.
 Careful that if one data file specified in the gnuplot script file does not exist, then 
 gnuplot will stop all of its computations. Thus if no experiments were done for "bad fields", 
-then one needs to modify slightly the file `saturation.plt` (line 34) as indicated by the 
-comment just above it.
+then one needs to modify slightly the file `tw_sti.plt` (around line 34) as indicated by the 
+comment.
 
 ### Files organisation
 
