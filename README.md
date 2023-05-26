@@ -52,7 +52,7 @@ parameters given in the calls to SageMath scripts.
    ./crt.sh <p1> ... <pr>
    ```
 
-2. Exp. for our relative Couveignes alg. with fixed relative degree $[K:k]$ (Figure 2), for primes `<p1>`...`<pr>`:
+2. Experiments for our relative Couveignes algorithm with constant relative degree $[K:k]$ (Figure 2), for primes `<p1>`...`<pr>`:
    ```
    ./couveignes_fixed_reldeg.sh <p1> ... <pr>
    ```
@@ -61,14 +61,14 @@ parameters given in the calls to SageMath scripts.
    one for our implementation of Alg. 5 using a Hensel lifting as function to compute the
    $e$-th root on the subfield (for suitable conductors).
 
-3. Exp. for our relative Couveignes alg. with fixed exp. $e$ (Figure 3), for primes `<p1>`...`<pr>`:
+3. Experiments for our relative Couveignes algorithm with fixed exponent $e$ (Figure 3), for primes `<p1>`...`<pr>`:
    ```
    ./couveignes_fixed_root.sh <p1> ... <pr>
    ```
    This will launch three processes as for the previous script.
 
-4. Exp. for saturation process from Twisted-Stickelberger approach, good case (Figure 4(a)),
-exponent range `<r>` (i.e. only exp.  $e$   such that   $r-10 < \log_2(e) < r$:
+4. Experiments for the saturation process required by the Tw-Sti approach, for good primes (Figure 4(a)),
+exponent range `<r>` (i.e., considering only exponents $e$ such that $r-10 < \log_2(e) < r$):
    ```
    ./cf_roots_twphs_saturation_good.sh <r>
    ```
@@ -76,8 +76,9 @@ exponent range `<r>` (i.e. only exp.  $e$   such that   $r-10 < \log_2(e) < r$:
    ```
    ./cf_roots_twphs_saturation_good.sage MAX 39
    ```
+   Using the `MAX` option here, $e$ is chosen as the biggest factor of $h_m^-$ whenever $\log_2(e) > 39$.
 
-5. Exp. for saturation process from Twisted-Stickelberger approach, bad case (Figure 4(b)):
+5. Experiments for the saturation process required by the Tw-Sti approach, for bad primes (Figure 4(b)):
    ```
    ./cf_roots_twphs_saturation_bad.sh
    ```
