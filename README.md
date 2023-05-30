@@ -1,5 +1,5 @@
 # Computing $e$-th roots in number fields
-Code given in support of arXiv preprint arXiv:xxxx.xxxx [pp.sss] (2023)
+Code given in support of arXiv preprint [arXiv:2305.17425 [math.NT]](https://arxiv.org/abs/2305.17425) (2023)
 
 
 ### Environment
@@ -17,8 +17,11 @@ The provided code has been tested with the following versions.
 Please take note that the last experiments are done within the context of 
 the following ASIACRYPT 2022 paper, available on the IACR ePrint Archive
 [ePrint:2021/1384](https://eprint.iacr.org/2021/1384):
+
 > **Log-S-unit Lattices Using Explicit Stickelberger Generators to Solve Approx Ideal-SVP**
 > Olivier Bernard, Andrea Lesavourey, Tuong-Huy Nguyen and Adeline Roux-Langlois
+
+We include, for temporary convenience, the useful material for these last experiments in the folder `./Tw-Sti`, aka. some of the Python packages and experimental S-units data. All the contents of this folder are taken from [github:ob3rnard/Tw-Sti](https://github.com/ob3rnard/Tw-Sti).
 
 Other than that, the experiments (items 4. and 5. below) are designed to evaluate 
 the general behaviour of our algorithms when compared to standard methods such
