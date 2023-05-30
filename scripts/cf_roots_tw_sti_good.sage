@@ -1,6 +1,6 @@
 #!/usr/bin/env sage
 
-# Code in support of arXiv:xxxx.xxxxx [pp.sss]
+# Code in support of arXiv:2305.17425 [math.NT]
 # Copyright 2023, Olivier Bernard, Andrea Lesavourey
 # GPL-3.0-only (see LICENSE file)
 
