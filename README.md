@@ -146,7 +146,7 @@ comment.
 
 ### License
 
-&copy; 2023, Olivier Bernard, Andrea Lesavourey, Pierre-Alain Fouque.
+&copy; 2023, Olivier Bernard, Pierre-Alain Fouque, Andrea Lesavourey.
 This work is published under the GNU General Public License (GPL) v3.0.  
 See the LICENSE file for complete statement.
 
